@@ -1,0 +1,251 @@
+
+.img-logo {
+  padding-top: 12%;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 22%;
+}
+
+#header {
+  border-bottom: 1px solid #ddd;
+}
+
+#content {
+  padding-top: 110px;
+}
+
+#contentt {
+  padding-top: 110px;
+  margin-top: 110px;
+}
+
+#wizo {
+  padding-top: 12.5px;
+  border: 1px solid #ddd;
+  padding-bottom: 12.5px;
+  background-color: #D6EBFC;
+}
+
+.alignleft {
+  float: left;
+}
+.alignright {
+  float: right;
+}
+
+h5.zodiac {
+  font-size: 18px;
+}
+
+h4.zodiac {
+  font-size: 20px;
+}
+
+#container-product {
+  padding-top: 25px;
+}
+
+.featurette {
+    height: 40%; /* set a pixel height and then remove the body,html height */
+    vertical-align: middle;
+    color: #fff;
+    padding-bottom: 1%;
+}
+.featurette-inner {
+    vertical-align: middle;
+}
+.featurette .search {
+    margin-left: 40px;
+}
+.no-margin-top {
+    margin-top: 0
+}
+
+/* ------ form-control-lg */
+.form-control-lg {
+    min-height: 46px;
+    border-radius: 6px;
+    font-size: 18px;
+    line-height: normal;
+    width: 500px;
+}
+
+
+/* ------ disjointed form group custom */
+.featurette .search.has-button .btn {
+    margin-top: 5px;
+    width: 100%;
+}
+@media (min-width:480px) { 
+    .featurette .search.has-button .form-group {
+        position: relative;
+        padding-right: 99px; /*space for button*/
+    }
+    .featurette .search.has-button .btn {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: auto;
+        margin: 0;
+    }
+}
+
+#lean_overlay {
+    position: fixed;
+    z-index:100;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+    background: #000;
+    display: none;
+}
+
+#loginmodal {
+  position: relative;
+  margin: 10px auto;
+  width: 500px;
+  height: 500px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.33);
+  -moz-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.33);
+  box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.33);
+}
+
+.lb-header {
+  position: relative;
+  color: #00415d;
+  margin: 5px 5px 10px 5px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+  text-align: center;
+  height: 28px;
+}
+
+.lb-header a {
+  margin: 0 25px;
+  padding: 0 20px;
+  text-decoration: none;
+  color: #666;
+  font-weight: bold;
+  font-size: 15px;
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+}
+
+.lb-header .active {
+  color: #029f5b;
+  font-size: 18px;
+}
+
+.social-login {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: auto;
+  padding: 10px 0 15px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.social-login a {
+  position: relative;
+  float: left;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 12px;
+  border-radius: 2px;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-left: 7%;
+  text-align: center;
+}
+
+.social-login a i {
+  position: relative;
+  float: left;
+  width: 20px;
+  top: 2px;
+}
+
+.social-login a:first-child {
+  background-color: #49639F;
+}
+
+.social-login a:last-child {
+  background-color: #DF4A32;
+}
+
+.email-login {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  text-align: center;
+  padding-top: 13%;
+}
+.email-signup {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.u-form-group {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.u-form-group input[type="name"],
+.u-form-group input[type="email"],
+.u-form-group input[type="password"] {
+  width: 50%;
+  height: 45px;
+  outline: none;
+  border: 1px solid #ddd;
+  padding: 0 10px;
+  border-radius: 10px;
+  color: #333;
+  font-size: 14px;
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+  text-align: center;
+}
+
+.u-form-group input:focus {
+  border-color: #358efb;
+}
+
+.u-form-group button {
+  width: 50%;
+  background-color: #1CB94E;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 14px 0;
+  border-radius: 2px;
+  text-transform: uppercase;
+}
+
+.forgot-password {
+  width: 50%;
+  text-align: left;
+  text-decoration: underline;
+  color: #888;
+  font-size: 12px;
+}
+
+label .req {
+  color: #1ab188;
+  font-size: 22px;
+  vertical-align: middle;
+  margin-left: 3%;
+}
